@@ -67,4 +67,4 @@ avg/total   0.99    0.94
 ```
 ## Summary 
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+While two the models produces decent balanced accuracy scores, for this data, I would recommend using the Easy Ensemble Classifier model. The final method produced an accuracy score of 0.9254 which was the highest of all six models run.
