@@ -11,7 +11,7 @@ Compare two new machine learning models, BalancedRandomForestClassifier and Easy
 
 The following are balanced accuracy scores, the precision and recall scores of all six machine learning models.
 
-* RandomOverSampler Method
+* [RandomOverSampler Method](/images/01_RandomOverSampler.PNG)
 ```
 balanced accuracy score = 0.5057471264367817
 
@@ -20,7 +20,7 @@ high_risk   1.00    0.01
 low_risk    1.00    1.00
 avg/total   1.00    1.00
 ```
-* SMOTE Oversampling
+* [SMOTE Oversampling](/images/02_SMOTE.PNG)
 ```
 balanced accuracy score = 0.632052971060912
 
@@ -29,7 +29,7 @@ high_risk   0.01    0.62
 low_risk    1.00    0.64
 avg/total   0.99    0.64
 ```
-* ClusterCentroids Undersampling
+* [ClusterCentroids Undersampling](/images/03_ClusterCentroids.PNG)
 ```
 balanced accuracy score = 0.5293026900499977
 
@@ -38,7 +38,7 @@ high_risk   0.01    0.61
 low_risk    1.00    0.45
 avg/total   0.99    0.45
 ```
-* SMOTEENN Combination (Over and Under) Sampling
+* [SMOTEENN Combination (Over and Under) Sampling](/images/04_SMOTEENN.PNG)
 ```
 balanced accuracy score = 0.6375533316412246
 
@@ -47,7 +47,7 @@ high_risk   0.01    0.70
 low_risk    1.00    0.57
 avg/total   0.99    0.57
 ```
-* Balanced Random Forest Classifier
+* [Balanced Random Forest Classifier](/images/05_BalancedRandomForestClassifier.PNG)
 ```
 balanced accuracy score = 0.7877672625306695
 
@@ -56,7 +56,7 @@ high_risk   0.04    0.67
 low_risk    1.00    0.91
 avg/total   0.99    0.91
 ```
-* Easy Ensemble Classifier
+* [Easy Ensemble Classifier](/images/06_EasyEnsembleClassifier.PNG)
 ```
 balanced accuracy score = 0.925427358175101
 
